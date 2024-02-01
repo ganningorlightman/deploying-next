@@ -6,7 +6,7 @@ const nextConfig = {
   output: "export",
   images: {
     loader: 'akamai',
-    path: '',
+    path: './',
   },
   assetPrefix: isProd ? 'https://ganningorlightman.github.io/deploying-next' : undefined,
 };
