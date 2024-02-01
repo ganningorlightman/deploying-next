@@ -6,9 +6,10 @@ const nextConfig = {
   output: "export",
   images: {
     loader: 'akamai',
-    path: './',
+    path: '',
+    domains: ['https://ganningorlightman.github.io/deploying-next'],
   },
-  assetPrefix: isProd ? 'https://ganningorlightman.github.io/deploying-next' : undefined,
+  assetPrefix: isProd ? 'https://ganningorlightman.github.io/deploying-next' : '',
 };
 
 export default nextConfig;
